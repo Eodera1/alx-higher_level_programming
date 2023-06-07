@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 # 3-print_alphabt.py
-for letter in range(98, 107):
-     if chr(letter) is not 'k' and chr(letter) is not 't':
+for chr in range(97, 123):
+     if chr != 101 and chr != 113:
          print("{:c}".format(chr), end=")
