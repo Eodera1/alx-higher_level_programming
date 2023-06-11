@@ -3,8 +3,8 @@
 if __name__ == "__main__":
     import sys
 
-    name = len(sys.argv) - 1
-    if name != 3:
+    func = len(sys.argv) - 1
+    if func != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
