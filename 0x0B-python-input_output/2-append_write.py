@@ -3,7 +3,7 @@
 """
 
 
-def read_lines(filename="", nb_lines=0):
+def append_write(filename="", text=""):
     """ Function that reads from a file and prints its number of lines
 
     Args:
